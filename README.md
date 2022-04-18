@@ -1,2 +1,2 @@
 # SimpleTodoListApp
-My first ASP.NET web app
+Simple ASP.NET CORE MVC Web App, using Entity Framework Core and connecting to SQL database.

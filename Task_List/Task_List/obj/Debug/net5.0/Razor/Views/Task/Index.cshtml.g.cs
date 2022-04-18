@@ -14,7 +14,7 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"045296a188957ae82efc8dd001c53072a2d287ff", @"/Views/Task/Index.cshtml")]
     #nullable restore
-    public class Views_Task_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<Task_List.Models.Task>>
+    public class Views_Task_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<Task_List.Models.TaskModel>>
     #nullable disable
     {
         #pragma warning disable 1998
@@ -154,7 +154,7 @@ namespace AspNetCore
         #nullable disable
         #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<IEnumerable<Task_List.Models.Task>> Html { get; private set; } = default!;
+        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<IEnumerable<Task_List.Models.TaskModel>> Html { get; private set; } = default!;
         #nullable disable
     }
 }

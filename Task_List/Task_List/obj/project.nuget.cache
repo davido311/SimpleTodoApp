@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G2gUupTryEFfz4wflPgBNMaEYxu3dmEa7W+rm3jHFzr3piVI29Na7or54lsUai2DH9kxPz7hRkxOZQEXT9QxEA==",
+  "dgSpecHash": "Y8TxtqpbRMZ3MhrRJhQPz0SZOxhDYFCbgSXLZpbPT3r54oipEFu7Pk2+0YFA1gyKp1Qb69WhBN1D5PeFgC/qLw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Davido\\Desktop\\APBD\\Task_List\\Task_List\\Task_List.csproj",
+  "projectFilePath": "C:\\Users\\Davido\\Desktop\\Projects\\SimpleTaskListApp\\Task_List\\Task_List\\Task_List.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Davido\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\Davido\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

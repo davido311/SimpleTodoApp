@@ -6237,11 +6237,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Davido\\Desktop\\APBD\\Task_List\\Task_List\\Task_List.csproj",
+      "projectUniqueName": "C:\\Users\\Davido\\Desktop\\Projects\\SimpleTaskListApp\\Task_List\\Task_List\\Task_List.csproj",
       "projectName": "Task_List",
-      "projectPath": "C:\\Users\\Davido\\Desktop\\APBD\\Task_List\\Task_List\\Task_List.csproj",
+      "projectPath": "C:\\Users\\Davido\\Desktop\\Projects\\SimpleTaskListApp\\Task_List\\Task_List\\Task_List.csproj",
       "packagesPath": "C:\\Users\\Davido\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Davido\\Desktop\\APBD\\Task_List\\Task_List\\obj\\",
+      "outputPath": "C:\\Users\\Davido\\Desktop\\Projects\\SimpleTaskListApp\\Task_List\\Task_List\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Davido\\AppData\\Roaming\\NuGet\\NuGet.Config",

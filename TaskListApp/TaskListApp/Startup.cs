@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -8,6 +9,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using TaskListApp.Models;
+using TaskListApp.Services;
 
 namespace TaskListApp
 {
@@ -24,6 +27,11 @@ namespace TaskListApp
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddDbContext<TaskListContext>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("TaskListDatabase"))
+            );
+
+            services.AddTransient<ITaskService,TaskService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -50,7 +58,7 @@ namespace TaskListApp
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Task}/{action=Index}/{id?}");
             });
         }
     }

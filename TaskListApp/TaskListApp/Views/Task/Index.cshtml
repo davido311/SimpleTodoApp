@@ -1,0 +1,41 @@
+﻿@model IEnumerable<TaskListApp.Models.TaskModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 class = " display-4">Todo list</h1>
+
+<p>
+    <a class = "btn btn-primary" asp-action="Create">Add new task</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+          
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+       
+           
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+        
+            <td style = "width:65%">
+                @Html.DisplayFor(modelItem => item.Name)<br>
+                <p class =" font-weight-light font-italic">  @Html.DisplayFor(modelItem => item.Description )</p>
+            </td>
+            <td style = "width 35%">
+                @Html.ActionLink("Done", "Done", new { id=item.IdTask }, new {@class="btn btn-success"}) 
+                @Html.ActionLink("Details", "Details", new {  id=item.IdTask }, new {@class="btn btn-info"}) 
+                @Html.ActionLink("Edit", "Edit", new { id=item.IdTask }, new {@class="btn btn-warning"}) 
+                @Html.ActionLink("Delete", "Delete", new {  id=item.IdTask  }, new {@class="btn btn-danger"})
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

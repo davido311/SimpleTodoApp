@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Davido\\Desktop\\Projects\\TaskListApp\\TaskListApp\\TaskListApp.csproj": {}
+    "C:\\Users\\Davido\\Desktop\\Projects\\SimpleTaskListApp\\TaskListApp\\TaskListApp\\TaskListApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Davido\\Desktop\\Projects\\TaskListApp\\TaskListApp\\TaskListApp.csproj": {
+    "C:\\Users\\Davido\\Desktop\\Projects\\SimpleTaskListApp\\TaskListApp\\TaskListApp\\TaskListApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Davido\\Desktop\\Projects\\TaskListApp\\TaskListApp\\TaskListApp.csproj",
+        "projectUniqueName": "C:\\Users\\Davido\\Desktop\\Projects\\SimpleTaskListApp\\TaskListApp\\TaskListApp\\TaskListApp.csproj",
         "projectName": "TaskListApp",
-        "projectPath": "C:\\Users\\Davido\\Desktop\\Projects\\TaskListApp\\TaskListApp\\TaskListApp.csproj",
+        "projectPath": "C:\\Users\\Davido\\Desktop\\Projects\\SimpleTaskListApp\\TaskListApp\\TaskListApp\\TaskListApp.csproj",
         "packagesPath": "C:\\Users\\Davido\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Davido\\Desktop\\Projects\\TaskListApp\\TaskListApp\\obj\\",
+        "outputPath": "C:\\Users\\Davido\\Desktop\\Projects\\SimpleTaskListApp\\TaskListApp\\TaskListApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Davido\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,20 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

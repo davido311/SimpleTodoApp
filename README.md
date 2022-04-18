@@ -1,2 +1,2 @@
 # SimpleTodoListApp
-Simple ASP.NET CORE MVC Web App, using Entity Framework Core and connecting to SQL database.
+*Simple web app using ASP.NET CORE MVC Web App, Entity Framework Core and connecting to SQL database.
